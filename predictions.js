@@ -1,0 +1,3624 @@
+window.HCC_DEEPSURV_DATA = {
+  "model_name": "DeepSurv",
+  "split": "7:3 train/validation",
+  "source": "Training-set model with Grade, AJCC_N, and Surgery",
+  "feature_options": {
+    "grade": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ajcc_n": [
+      0,
+      1
+    ],
+    "surgery": [
+      0,
+      1
+    ]
+  },
+  "combos": [
+    {
+      "key": "G1_N0_S0",
+      "grade": 1,
+      "ajcc_n": 0,
+      "surgery": 0,
+      "risk_score": -0.0459,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.5687,
+          "event": 0.4313
+        },
+        "12": {
+          "survival": 0.3464,
+          "event": 0.6536
+        },
+        "18": {
+          "survival": 0.2027,
+          "event": 0.7973
+        },
+        "24": {
+          "survival": 0.1298,
+          "event": 0.8702
+        },
+        "36": {
+          "survival": 0.0794,
+          "event": 0.9206
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9566
+        },
+        {
+          "month": 1,
+          "survival": 0.8953
+        },
+        {
+          "month": 2,
+          "survival": 0.8082
+        },
+        {
+          "month": 3,
+          "survival": 0.7369
+        },
+        {
+          "month": 4,
+          "survival": 0.6848
+        },
+        {
+          "month": 5,
+          "survival": 0.6339
+        },
+        {
+          "month": 6,
+          "survival": 0.5687
+        },
+        {
+          "month": 7,
+          "survival": 0.5264
+        },
+        {
+          "month": 8,
+          "survival": 0.4916
+        },
+        {
+          "month": 9,
+          "survival": 0.4411
+        },
+        {
+          "month": 10,
+          "survival": 0.4191
+        },
+        {
+          "month": 11,
+          "survival": 0.3703
+        },
+        {
+          "month": 12,
+          "survival": 0.3464
+        },
+        {
+          "month": 13,
+          "survival": 0.3223
+        },
+        {
+          "month": 14,
+          "survival": 0.2978
+        },
+        {
+          "month": 15,
+          "survival": 0.2789
+        },
+        {
+          "month": 16,
+          "survival": 0.2363
+        },
+        {
+          "month": 17,
+          "survival": 0.21
+        },
+        {
+          "month": 18,
+          "survival": 0.2027
+        },
+        {
+          "month": 19,
+          "survival": 0.1881
+        },
+        {
+          "month": 20,
+          "survival": 0.1736
+        },
+        {
+          "month": 21,
+          "survival": 0.151
+        },
+        {
+          "month": 22,
+          "survival": 0.1426
+        },
+        {
+          "month": 23,
+          "survival": 0.1341
+        },
+        {
+          "month": 24,
+          "survival": 0.1298
+        },
+        {
+          "month": 25,
+          "survival": 0.1256
+        },
+        {
+          "month": 26,
+          "survival": 0.1232
+        },
+        {
+          "month": 27,
+          "survival": 0.1207
+        },
+        {
+          "month": 28,
+          "survival": 0.1183
+        },
+        {
+          "month": 29,
+          "survival": 0.1159
+        },
+        {
+          "month": 30,
+          "survival": 0.1135
+        },
+        {
+          "month": 31,
+          "survival": 0.1111
+        },
+        {
+          "month": 32,
+          "survival": 0.1087
+        },
+        {
+          "month": 33,
+          "survival": 0.0993
+        },
+        {
+          "month": 34,
+          "survival": 0.0898
+        },
+        {
+          "month": 35,
+          "survival": 0.0846
+        },
+        {
+          "month": 36,
+          "survival": 0.0794
+        }
+      ]
+    },
+    {
+      "key": "G1_N0_S1",
+      "grade": 1,
+      "ajcc_n": 0,
+      "surgery": 1,
+      "risk_score": -0.3679,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.6643,
+          "event": 0.3357
+        },
+        "12": {
+          "survival": 0.4638,
+          "event": 0.5362
+        },
+        "18": {
+          "survival": 0.3145,
+          "event": 0.6855
+        },
+        "24": {
+          "survival": 0.2277,
+          "event": 0.7723
+        },
+        "36": {
+          "survival": 0.1595,
+          "event": 0.8405
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9683
+        },
+        {
+          "month": 1,
+          "survival": 0.923
+        },
+        {
+          "month": 2,
+          "survival": 0.857
+        },
+        {
+          "month": 3,
+          "survival": 0.8015
+        },
+        {
+          "month": 4,
+          "survival": 0.76
+        },
+        {
+          "month": 5,
+          "survival": 0.7186
+        },
+        {
+          "month": 6,
+          "survival": 0.6643
+        },
+        {
+          "month": 7,
+          "survival": 0.6281
+        },
+        {
+          "month": 8,
+          "survival": 0.5977
+        },
+        {
+          "month": 9,
+          "survival": 0.5526
+        },
+        {
+          "month": 10,
+          "survival": 0.5325
+        },
+        {
+          "month": 11,
+          "survival": 0.4867
+        },
+        {
+          "month": 12,
+          "survival": 0.4638
+        },
+        {
+          "month": 13,
+          "survival": 0.4402
+        },
+        {
+          "month": 14,
+          "survival": 0.4157
+        },
+        {
+          "month": 15,
+          "survival": 0.3964
+        },
+        {
+          "month": 16,
+          "survival": 0.3515
+        },
+        {
+          "month": 17,
+          "survival": 0.3227
+        },
+        {
+          "month": 18,
+          "survival": 0.3145
+        },
+        {
+          "month": 19,
+          "survival": 0.298
+        },
+        {
+          "month": 20,
+          "survival": 0.2811
+        },
+        {
+          "month": 21,
+          "survival": 0.254
+        },
+        {
+          "month": 22,
+          "survival": 0.2438
+        },
+        {
+          "month": 23,
+          "survival": 0.2331
+        },
+        {
+          "month": 24,
+          "survival": 0.2277
+        },
+        {
+          "month": 25,
+          "survival": 0.2223
+        },
+        {
+          "month": 26,
+          "survival": 0.2191
+        },
+        {
+          "month": 27,
+          "survival": 0.216
+        },
+        {
+          "month": 28,
+          "survival": 0.2128
+        },
+        {
+          "month": 29,
+          "survival": 0.2097
+        },
+        {
+          "month": 30,
+          "survival": 0.2065
+        },
+        {
+          "month": 31,
+          "survival": 0.2033
+        },
+        {
+          "month": 32,
+          "survival": 0.2002
+        },
+        {
+          "month": 33,
+          "survival": 0.1875
+        },
+        {
+          "month": 34,
+          "survival": 0.1744
+        },
+        {
+          "month": 35,
+          "survival": 0.1669
+        },
+        {
+          "month": 36,
+          "survival": 0.1595
+        }
+      ]
+    },
+    {
+      "key": "G1_N1_S0",
+      "grade": 1,
+      "ajcc_n": 1,
+      "surgery": 0,
+      "risk_score": 0.1421,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.506,
+          "event": 0.494
+        },
+        "12": {
+          "survival": 0.2782,
+          "event": 0.7218
+        },
+        "18": {
+          "survival": 0.1457,
+          "event": 0.8543
+        },
+        "24": {
+          "survival": 0.0851,
+          "event": 0.9149
+        },
+        "36": {
+          "survival": 0.047,
+          "event": 0.953
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9478
+        },
+        {
+          "month": 1,
+          "survival": 0.8751
+        },
+        {
+          "month": 2,
+          "survival": 0.7734
+        },
+        {
+          "month": 3,
+          "survival": 0.6918
+        },
+        {
+          "month": 4,
+          "survival": 0.6332
+        },
+        {
+          "month": 5,
+          "survival": 0.5768
+        },
+        {
+          "month": 6,
+          "survival": 0.506
+        },
+        {
+          "month": 7,
+          "survival": 0.461
+        },
+        {
+          "month": 8,
+          "survival": 0.4244
+        },
+        {
+          "month": 9,
+          "survival": 0.3724
+        },
+        {
+          "month": 10,
+          "survival": 0.3501
+        },
+        {
+          "month": 11,
+          "survival": 0.3015
+        },
+        {
+          "month": 12,
+          "survival": 0.2782
+        },
+        {
+          "month": 13,
+          "survival": 0.255
+        },
+        {
+          "month": 14,
+          "survival": 0.2318
+        },
+        {
+          "month": 15,
+          "survival": 0.2141
+        },
+        {
+          "month": 16,
+          "survival": 0.1753
+        },
+        {
+          "month": 17,
+          "survival": 0.152
+        },
+        {
+          "month": 18,
+          "survival": 0.1457
+        },
+        {
+          "month": 19,
+          "survival": 0.1331
+        },
+        {
+          "month": 20,
+          "survival": 0.1208
+        },
+        {
+          "month": 21,
+          "survival": 0.1021
+        },
+        {
+          "month": 22,
+          "survival": 0.0953
+        },
+        {
+          "month": 23,
+          "survival": 0.0885
+        },
+        {
+          "month": 24,
+          "survival": 0.0851
+        },
+        {
+          "month": 25,
+          "survival": 0.0817
+        },
+        {
+          "month": 26,
+          "survival": 0.0799
+        },
+        {
+          "month": 27,
+          "survival": 0.078
+        },
+        {
+          "month": 28,
+          "survival": 0.0761
+        },
+        {
+          "month": 29,
+          "survival": 0.0743
+        },
+        {
+          "month": 30,
+          "survival": 0.0724
+        },
+        {
+          "month": 31,
+          "survival": 0.0705
+        },
+        {
+          "month": 32,
+          "survival": 0.0686
+        },
+        {
+          "month": 33,
+          "survival": 0.0615
+        },
+        {
+          "month": 34,
+          "survival": 0.0546
+        },
+        {
+          "month": 35,
+          "survival": 0.0508
+        },
+        {
+          "month": 36,
+          "survival": 0.047
+        }
+      ]
+    },
+    {
+      "key": "G1_N1_S1",
+      "grade": 1,
+      "ajcc_n": 1,
+      "surgery": 1,
+      "risk_score": 0.1383,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.5073,
+          "event": 0.4927
+        },
+        "12": {
+          "survival": 0.2796,
+          "event": 0.7204
+        },
+        "18": {
+          "survival": 0.1467,
+          "event": 0.8533
+        },
+        "24": {
+          "survival": 0.0859,
+          "event": 0.9141
+        },
+        "36": {
+          "survival": 0.0476,
+          "event": 0.9524
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.948
+        },
+        {
+          "month": 1,
+          "survival": 0.8755
+        },
+        {
+          "month": 2,
+          "survival": 0.7742
+        },
+        {
+          "month": 3,
+          "survival": 0.6928
+        },
+        {
+          "month": 4,
+          "survival": 0.6343
+        },
+        {
+          "month": 5,
+          "survival": 0.578
+        },
+        {
+          "month": 6,
+          "survival": 0.5073
+        },
+        {
+          "month": 7,
+          "survival": 0.4623
+        },
+        {
+          "month": 8,
+          "survival": 0.4258
+        },
+        {
+          "month": 9,
+          "survival": 0.3738
+        },
+        {
+          "month": 10,
+          "survival": 0.3515
+        },
+        {
+          "month": 11,
+          "survival": 0.3028
+        },
+        {
+          "month": 12,
+          "survival": 0.2796
+        },
+        {
+          "month": 13,
+          "survival": 0.2563
+        },
+        {
+          "month": 14,
+          "survival": 0.2331
+        },
+        {
+          "month": 15,
+          "survival": 0.2154
+        },
+        {
+          "month": 16,
+          "survival": 0.1765
+        },
+        {
+          "month": 17,
+          "survival": 0.1531
+        },
+        {
+          "month": 18,
+          "survival": 0.1467
+        },
+        {
+          "month": 19,
+          "survival": 0.1342
+        },
+        {
+          "month": 20,
+          "survival": 0.1218
+        },
+        {
+          "month": 21,
+          "survival": 0.103
+        },
+        {
+          "month": 22,
+          "survival": 0.0962
+        },
+        {
+          "month": 23,
+          "survival": 0.0893
+        },
+        {
+          "month": 24,
+          "survival": 0.0859
+        },
+        {
+          "month": 25,
+          "survival": 0.0825
+        },
+        {
+          "month": 26,
+          "survival": 0.0806
+        },
+        {
+          "month": 27,
+          "survival": 0.0788
+        },
+        {
+          "month": 28,
+          "survival": 0.0769
+        },
+        {
+          "month": 29,
+          "survival": 0.075
+        },
+        {
+          "month": 30,
+          "survival": 0.0731
+        },
+        {
+          "month": 31,
+          "survival": 0.0712
+        },
+        {
+          "month": 32,
+          "survival": 0.0693
+        },
+        {
+          "month": 33,
+          "survival": 0.0622
+        },
+        {
+          "month": 34,
+          "survival": 0.0552
+        },
+        {
+          "month": 35,
+          "survival": 0.0514
+        },
+        {
+          "month": 36,
+          "survival": 0.0476
+        }
+      ]
+    },
+    {
+      "key": "G2_N0_S0",
+      "grade": 2,
+      "ajcc_n": 0,
+      "surgery": 0,
+      "risk_score": -0.0633,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.5742,
+          "event": 0.4258
+        },
+        "12": {
+          "survival": 0.3528,
+          "event": 0.6472
+        },
+        "18": {
+          "survival": 0.2083,
+          "event": 0.7917
+        },
+        "24": {
+          "survival": 0.1345,
+          "event": 0.8655
+        },
+        "36": {
+          "survival": 0.0829,
+          "event": 0.9171
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9573
+        },
+        {
+          "month": 1,
+          "survival": 0.897
+        },
+        {
+          "month": 2,
+          "survival": 0.8112
+        },
+        {
+          "month": 3,
+          "survival": 0.7408
+        },
+        {
+          "month": 4,
+          "survival": 0.6893
+        },
+        {
+          "month": 5,
+          "survival": 0.6389
+        },
+        {
+          "month": 6,
+          "survival": 0.5742
+        },
+        {
+          "month": 7,
+          "survival": 0.5322
+        },
+        {
+          "month": 8,
+          "survival": 0.4976
+        },
+        {
+          "month": 9,
+          "survival": 0.4473
+        },
+        {
+          "month": 10,
+          "survival": 0.4254
+        },
+        {
+          "month": 11,
+          "survival": 0.3766
+        },
+        {
+          "month": 12,
+          "survival": 0.3528
+        },
+        {
+          "month": 13,
+          "survival": 0.3287
+        },
+        {
+          "month": 14,
+          "survival": 0.3041
+        },
+        {
+          "month": 15,
+          "survival": 0.2851
+        },
+        {
+          "month": 16,
+          "survival": 0.2422
+        },
+        {
+          "month": 17,
+          "survival": 0.2157
+        },
+        {
+          "month": 18,
+          "survival": 0.2083
+        },
+        {
+          "month": 19,
+          "survival": 0.1936
+        },
+        {
+          "month": 20,
+          "survival": 0.1789
+        },
+        {
+          "month": 21,
+          "survival": 0.1559
+        },
+        {
+          "month": 22,
+          "survival": 0.1475
+        },
+        {
+          "month": 23,
+          "survival": 0.1388
+        },
+        {
+          "month": 24,
+          "survival": 0.1345
+        },
+        {
+          "month": 25,
+          "survival": 0.1301
+        },
+        {
+          "month": 26,
+          "survival": 0.1277
+        },
+        {
+          "month": 27,
+          "survival": 0.1252
+        },
+        {
+          "month": 28,
+          "survival": 0.1227
+        },
+        {
+          "month": 29,
+          "survival": 0.1203
+        },
+        {
+          "month": 30,
+          "survival": 0.1178
+        },
+        {
+          "month": 31,
+          "survival": 0.1153
+        },
+        {
+          "month": 32,
+          "survival": 0.1129
+        },
+        {
+          "month": 33,
+          "survival": 0.1033
+        },
+        {
+          "month": 34,
+          "survival": 0.0936
+        },
+        {
+          "month": 35,
+          "survival": 0.0883
+        },
+        {
+          "month": 36,
+          "survival": 0.0829
+        }
+      ]
+    },
+    {
+      "key": "G2_N0_S1",
+      "grade": 2,
+      "ajcc_n": 0,
+      "surgery": 1,
+      "risk_score": -0.5509,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.7113,
+          "event": 0.2887
+        },
+        "12": {
+          "survival": 0.5274,
+          "event": 0.4726
+        },
+        "18": {
+          "survival": 0.3816,
+          "event": 0.6184
+        },
+        "24": {
+          "survival": 0.2916,
+          "event": 0.7084
+        },
+        "36": {
+          "survival": 0.2168,
+          "event": 0.7832
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9735
+        },
+        {
+          "month": 1,
+          "survival": 0.9354
+        },
+        {
+          "month": 2,
+          "survival": 0.8794
+        },
+        {
+          "month": 3,
+          "survival": 0.8317
+        },
+        {
+          "month": 4,
+          "survival": 0.7957
+        },
+        {
+          "month": 5,
+          "survival": 0.7595
+        },
+        {
+          "month": 6,
+          "survival": 0.7113
+        },
+        {
+          "month": 7,
+          "survival": 0.6789
+        },
+        {
+          "month": 8,
+          "survival": 0.6514
+        },
+        {
+          "month": 9,
+          "survival": 0.6102
+        },
+        {
+          "month": 10,
+          "survival": 0.5917
+        },
+        {
+          "month": 11,
+          "survival": 0.549
+        },
+        {
+          "month": 12,
+          "survival": 0.5274
+        },
+        {
+          "month": 13,
+          "survival": 0.505
+        },
+        {
+          "month": 14,
+          "survival": 0.4814
+        },
+        {
+          "month": 15,
+          "survival": 0.4627
+        },
+        {
+          "month": 16,
+          "survival": 0.4187
+        },
+        {
+          "month": 17,
+          "survival": 0.3899
+        },
+        {
+          "month": 18,
+          "survival": 0.3816
+        },
+        {
+          "month": 19,
+          "survival": 0.3648
+        },
+        {
+          "month": 20,
+          "survival": 0.3475
+        },
+        {
+          "month": 21,
+          "survival": 0.3195
+        },
+        {
+          "month": 22,
+          "survival": 0.3087
+        },
+        {
+          "month": 23,
+          "survival": 0.2974
+        },
+        {
+          "month": 24,
+          "survival": 0.2916
+        },
+        {
+          "month": 25,
+          "survival": 0.2859
+        },
+        {
+          "month": 26,
+          "survival": 0.2825
+        },
+        {
+          "month": 27,
+          "survival": 0.279
+        },
+        {
+          "month": 28,
+          "survival": 0.2756
+        },
+        {
+          "month": 29,
+          "survival": 0.2722
+        },
+        {
+          "month": 30,
+          "survival": 0.2688
+        },
+        {
+          "month": 31,
+          "survival": 0.2654
+        },
+        {
+          "month": 32,
+          "survival": 0.262
+        },
+        {
+          "month": 33,
+          "survival": 0.248
+        },
+        {
+          "month": 34,
+          "survival": 0.2336
+        },
+        {
+          "month": 35,
+          "survival": 0.2252
+        },
+        {
+          "month": 36,
+          "survival": 0.2168
+        }
+      ]
+    },
+    {
+      "key": "G2_N1_S0",
+      "grade": 2,
+      "ajcc_n": 1,
+      "surgery": 0,
+      "risk_score": 0.2716,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.4605,
+          "event": 0.5395
+        },
+        "12": {
+          "survival": 0.2331,
+          "event": 0.7669
+        },
+        "18": {
+          "survival": 0.1116,
+          "event": 0.8884
+        },
+        "24": {
+          "survival": 0.0606,
+          "event": 0.9394
+        },
+        "36": {
+          "survival": 0.0308,
+          "event": 0.9692
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9408
+        },
+        {
+          "month": 1,
+          "survival": 0.8591
+        },
+        {
+          "month": 2,
+          "survival": 0.7464
+        },
+        {
+          "month": 3,
+          "survival": 0.6574
+        },
+        {
+          "month": 4,
+          "survival": 0.5944
+        },
+        {
+          "month": 5,
+          "survival": 0.5346
+        },
+        {
+          "month": 6,
+          "survival": 0.4605
+        },
+        {
+          "month": 7,
+          "survival": 0.4142
+        },
+        {
+          "month": 8,
+          "survival": 0.377
+        },
+        {
+          "month": 9,
+          "survival": 0.3248
+        },
+        {
+          "month": 10,
+          "survival": 0.3028
+        },
+        {
+          "month": 11,
+          "survival": 0.2554
+        },
+        {
+          "month": 12,
+          "survival": 0.2331
+        },
+        {
+          "month": 13,
+          "survival": 0.2111
+        },
+        {
+          "month": 14,
+          "survival": 0.1894
+        },
+        {
+          "month": 15,
+          "survival": 0.173
+        },
+        {
+          "month": 16,
+          "survival": 0.1378
+        },
+        {
+          "month": 17,
+          "survival": 0.1172
+        },
+        {
+          "month": 18,
+          "survival": 0.1116
+        },
+        {
+          "month": 19,
+          "survival": 0.1007
+        },
+        {
+          "month": 20,
+          "survival": 0.0902
+        },
+        {
+          "month": 21,
+          "survival": 0.0745
+        },
+        {
+          "month": 22,
+          "survival": 0.0689
+        },
+        {
+          "month": 23,
+          "survival": 0.0633
+        },
+        {
+          "month": 24,
+          "survival": 0.0606
+        },
+        {
+          "month": 25,
+          "survival": 0.0578
+        },
+        {
+          "month": 26,
+          "survival": 0.0563
+        },
+        {
+          "month": 27,
+          "survival": 0.0548
+        },
+        {
+          "month": 28,
+          "survival": 0.0534
+        },
+        {
+          "month": 29,
+          "survival": 0.0519
+        },
+        {
+          "month": 30,
+          "survival": 0.0504
+        },
+        {
+          "month": 31,
+          "survival": 0.0489
+        },
+        {
+          "month": 32,
+          "survival": 0.0474
+        },
+        {
+          "month": 33,
+          "survival": 0.0419
+        },
+        {
+          "month": 34,
+          "survival": 0.0365
+        },
+        {
+          "month": 35,
+          "survival": 0.0337
+        },
+        {
+          "month": 36,
+          "survival": 0.0308
+        }
+      ]
+    },
+    {
+      "key": "G2_N1_S1",
+      "grade": 2,
+      "ajcc_n": 1,
+      "surgery": 1,
+      "risk_score": 0.2279,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.4761,
+          "event": 0.5239
+        },
+        "12": {
+          "survival": 0.2481,
+          "event": 0.7519
+        },
+        "18": {
+          "survival": 0.1226,
+          "event": 0.8774
+        },
+        "24": {
+          "survival": 0.0683,
+          "event": 0.9317
+        },
+        "36": {
+          "survival": 0.0357,
+          "event": 0.9643
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9433
+        },
+        {
+          "month": 1,
+          "survival": 0.8647
+        },
+        {
+          "month": 2,
+          "survival": 0.7558
+        },
+        {
+          "month": 3,
+          "survival": 0.6693
+        },
+        {
+          "month": 4,
+          "survival": 0.6078
+        },
+        {
+          "month": 5,
+          "survival": 0.5491
+        },
+        {
+          "month": 6,
+          "survival": 0.4761
+        },
+        {
+          "month": 7,
+          "survival": 0.4301
+        },
+        {
+          "month": 8,
+          "survival": 0.393
+        },
+        {
+          "month": 9,
+          "survival": 0.3408
+        },
+        {
+          "month": 10,
+          "survival": 0.3187
+        },
+        {
+          "month": 11,
+          "survival": 0.2708
+        },
+        {
+          "month": 12,
+          "survival": 0.2481
+        },
+        {
+          "month": 13,
+          "survival": 0.2256
+        },
+        {
+          "month": 14,
+          "survival": 0.2034
+        },
+        {
+          "month": 15,
+          "survival": 0.1865
+        },
+        {
+          "month": 16,
+          "survival": 0.15
+        },
+        {
+          "month": 17,
+          "survival": 0.1284
+        },
+        {
+          "month": 18,
+          "survival": 0.1226
+        },
+        {
+          "month": 19,
+          "survival": 0.1111
+        },
+        {
+          "month": 20,
+          "survival": 0.1
+        },
+        {
+          "month": 21,
+          "survival": 0.0832
+        },
+        {
+          "month": 22,
+          "survival": 0.0772
+        },
+        {
+          "month": 23,
+          "survival": 0.0712
+        },
+        {
+          "month": 24,
+          "survival": 0.0683
+        },
+        {
+          "month": 25,
+          "survival": 0.0653
+        },
+        {
+          "month": 26,
+          "survival": 0.0637
+        },
+        {
+          "month": 27,
+          "survival": 0.0621
+        },
+        {
+          "month": 28,
+          "survival": 0.0605
+        },
+        {
+          "month": 29,
+          "survival": 0.0588
+        },
+        {
+          "month": 30,
+          "survival": 0.0572
+        },
+        {
+          "month": 31,
+          "survival": 0.0556
+        },
+        {
+          "month": 32,
+          "survival": 0.054
+        },
+        {
+          "month": 33,
+          "survival": 0.0479
+        },
+        {
+          "month": 34,
+          "survival": 0.0421
+        },
+        {
+          "month": 35,
+          "survival": 0.0389
+        },
+        {
+          "month": 36,
+          "survival": 0.0357
+        }
+      ]
+    },
+    {
+      "key": "G3_N0_S0",
+      "grade": 3,
+      "ajcc_n": 0,
+      "surgery": 0,
+      "risk_score": 0.6247,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.3316,
+          "event": 0.6684
+        },
+        "12": {
+          "survival": 0.1258,
+          "event": 0.8742
+        },
+        "18": {
+          "survival": 0.0441,
+          "event": 0.9559
+        },
+        "24": {
+          "survival": 0.0185,
+          "event": 0.9815
+        },
+        "36": {
+          "survival": 0.0071,
+          "event": 0.9929
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9168
+        },
+        {
+          "month": 1,
+          "survival": 0.8055
+        },
+        {
+          "month": 2,
+          "survival": 0.6595
+        },
+        {
+          "month": 3,
+          "survival": 0.5505
+        },
+        {
+          "month": 4,
+          "survival": 0.4769
+        },
+        {
+          "month": 5,
+          "survival": 0.41
+        },
+        {
+          "month": 6,
+          "survival": 0.3316
+        },
+        {
+          "month": 7,
+          "survival": 0.2851
+        },
+        {
+          "month": 8,
+          "survival": 0.2494
+        },
+        {
+          "month": 9,
+          "survival": 0.2018
+        },
+        {
+          "month": 10,
+          "survival": 0.1826
+        },
+        {
+          "month": 11,
+          "survival": 0.1433
+        },
+        {
+          "month": 12,
+          "survival": 0.1258
+        },
+        {
+          "month": 13,
+          "survival": 0.1093
+        },
+        {
+          "month": 14,
+          "survival": 0.0936
+        },
+        {
+          "month": 15,
+          "survival": 0.0823
+        },
+        {
+          "month": 16,
+          "survival": 0.0595
+        },
+        {
+          "month": 17,
+          "survival": 0.0473
+        },
+        {
+          "month": 18,
+          "survival": 0.0441
+        },
+        {
+          "month": 19,
+          "survival": 0.0381
+        },
+        {
+          "month": 20,
+          "survival": 0.0326
+        },
+        {
+          "month": 21,
+          "survival": 0.0248
+        },
+        {
+          "month": 22,
+          "survival": 0.0222
+        },
+        {
+          "month": 23,
+          "survival": 0.0197
+        },
+        {
+          "month": 24,
+          "survival": 0.0185
+        },
+        {
+          "month": 25,
+          "survival": 0.0173
+        },
+        {
+          "month": 26,
+          "survival": 0.0167
+        },
+        {
+          "month": 27,
+          "survival": 0.0161
+        },
+        {
+          "month": 28,
+          "survival": 0.0155
+        },
+        {
+          "month": 29,
+          "survival": 0.0149
+        },
+        {
+          "month": 30,
+          "survival": 0.0142
+        },
+        {
+          "month": 31,
+          "survival": 0.0136
+        },
+        {
+          "month": 32,
+          "survival": 0.013
+        },
+        {
+          "month": 33,
+          "survival": 0.0109
+        },
+        {
+          "month": 34,
+          "survival": 0.009
+        },
+        {
+          "month": 35,
+          "survival": 0.008
+        },
+        {
+          "month": 36,
+          "survival": 0.0071
+        }
+      ]
+    },
+    {
+      "key": "G3_N0_S1",
+      "grade": 3,
+      "ajcc_n": 0,
+      "surgery": 1,
+      "risk_score": 0.2001,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.4859,
+          "event": 0.5141
+        },
+        "12": {
+          "survival": 0.2578,
+          "event": 0.7422
+        },
+        "18": {
+          "survival": 0.1299,
+          "event": 0.8701
+        },
+        "24": {
+          "survival": 0.0735,
+          "event": 0.9265
+        },
+        "36": {
+          "survival": 0.0392,
+          "event": 0.9608
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9448
+        },
+        {
+          "month": 1,
+          "survival": 0.8681
+        },
+        {
+          "month": 2,
+          "survival": 0.7616
+        },
+        {
+          "month": 3,
+          "survival": 0.6768
+        },
+        {
+          "month": 4,
+          "survival": 0.6161
+        },
+        {
+          "month": 5,
+          "survival": 0.5582
+        },
+        {
+          "month": 6,
+          "survival": 0.4859
+        },
+        {
+          "month": 7,
+          "survival": 0.4401
+        },
+        {
+          "month": 8,
+          "survival": 0.4032
+        },
+        {
+          "month": 9,
+          "survival": 0.3511
+        },
+        {
+          "month": 10,
+          "survival": 0.3289
+        },
+        {
+          "month": 11,
+          "survival": 0.2806
+        },
+        {
+          "month": 12,
+          "survival": 0.2578
+        },
+        {
+          "month": 13,
+          "survival": 0.235
+        },
+        {
+          "month": 14,
+          "survival": 0.2125
+        },
+        {
+          "month": 15,
+          "survival": 0.1953
+        },
+        {
+          "month": 16,
+          "survival": 0.158
+        },
+        {
+          "month": 17,
+          "survival": 0.1359
+        },
+        {
+          "month": 18,
+          "survival": 0.1299
+        },
+        {
+          "month": 19,
+          "survival": 0.118
+        },
+        {
+          "month": 20,
+          "survival": 0.1065
+        },
+        {
+          "month": 21,
+          "survival": 0.0891
+        },
+        {
+          "month": 22,
+          "survival": 0.0828
+        },
+        {
+          "month": 23,
+          "survival": 0.0766
+        },
+        {
+          "month": 24,
+          "survival": 0.0735
+        },
+        {
+          "month": 25,
+          "survival": 0.0704
+        },
+        {
+          "month": 26,
+          "survival": 0.0687
+        },
+        {
+          "month": 27,
+          "survival": 0.067
+        },
+        {
+          "month": 28,
+          "survival": 0.0653
+        },
+        {
+          "month": 29,
+          "survival": 0.0636
+        },
+        {
+          "month": 30,
+          "survival": 0.0619
+        },
+        {
+          "month": 31,
+          "survival": 0.0602
+        },
+        {
+          "month": 32,
+          "survival": 0.0585
+        },
+        {
+          "month": 33,
+          "survival": 0.0521
+        },
+        {
+          "month": 34,
+          "survival": 0.0459
+        },
+        {
+          "month": 35,
+          "survival": 0.0425
+        },
+        {
+          "month": 36,
+          "survival": 0.0392
+        }
+      ]
+    },
+    {
+      "key": "G3_N1_S0",
+      "grade": 3,
+      "ajcc_n": 1,
+      "surgery": 0,
+      "risk_score": 0.6254,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.3314,
+          "event": 0.6686
+        },
+        "12": {
+          "survival": 0.1256,
+          "event": 0.8744
+        },
+        "18": {
+          "survival": 0.044,
+          "event": 0.956
+        },
+        "24": {
+          "survival": 0.0184,
+          "event": 0.9816
+        },
+        "36": {
+          "survival": 0.007,
+          "event": 0.993
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9167
+        },
+        {
+          "month": 1,
+          "survival": 0.8054
+        },
+        {
+          "month": 2,
+          "survival": 0.6593
+        },
+        {
+          "month": 3,
+          "survival": 0.5502
+        },
+        {
+          "month": 4,
+          "survival": 0.4767
+        },
+        {
+          "month": 5,
+          "survival": 0.4098
+        },
+        {
+          "month": 6,
+          "survival": 0.3314
+        },
+        {
+          "month": 7,
+          "survival": 0.2849
+        },
+        {
+          "month": 8,
+          "survival": 0.2491
+        },
+        {
+          "month": 9,
+          "survival": 0.2016
+        },
+        {
+          "month": 10,
+          "survival": 0.1824
+        },
+        {
+          "month": 11,
+          "survival": 0.1431
+        },
+        {
+          "month": 12,
+          "survival": 0.1256
+        },
+        {
+          "month": 13,
+          "survival": 0.1091
+        },
+        {
+          "month": 14,
+          "survival": 0.0935
+        },
+        {
+          "month": 15,
+          "survival": 0.0822
+        },
+        {
+          "month": 16,
+          "survival": 0.0594
+        },
+        {
+          "month": 17,
+          "survival": 0.0472
+        },
+        {
+          "month": 18,
+          "survival": 0.044
+        },
+        {
+          "month": 19,
+          "survival": 0.038
+        },
+        {
+          "month": 20,
+          "survival": 0.0325
+        },
+        {
+          "month": 21,
+          "survival": 0.0247
+        },
+        {
+          "month": 22,
+          "survival": 0.0221
+        },
+        {
+          "month": 23,
+          "survival": 0.0196
+        },
+        {
+          "month": 24,
+          "survival": 0.0184
+        },
+        {
+          "month": 25,
+          "survival": 0.0172
+        },
+        {
+          "month": 26,
+          "survival": 0.0166
+        },
+        {
+          "month": 27,
+          "survival": 0.016
+        },
+        {
+          "month": 28,
+          "survival": 0.0154
+        },
+        {
+          "month": 29,
+          "survival": 0.0148
+        },
+        {
+          "month": 30,
+          "survival": 0.0142
+        },
+        {
+          "month": 31,
+          "survival": 0.0136
+        },
+        {
+          "month": 32,
+          "survival": 0.013
+        },
+        {
+          "month": 33,
+          "survival": 0.0109
+        },
+        {
+          "month": 34,
+          "survival": 0.009
+        },
+        {
+          "month": 35,
+          "survival": 0.008
+        },
+        {
+          "month": 36,
+          "survival": 0.007
+        }
+      ]
+    },
+    {
+      "key": "G3_N1_S1",
+      "grade": 3,
+      "ajcc_n": 1,
+      "surgery": 1,
+      "risk_score": 0.5434,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.3615,
+          "event": 0.6385
+        },
+        "12": {
+          "survival": 0.1479,
+          "event": 0.8521
+        },
+        "18": {
+          "survival": 0.0563,
+          "event": 0.9437
+        },
+        "24": {
+          "survival": 0.0252,
+          "event": 0.9748
+        },
+        "36": {
+          "survival": 0.0104,
+          "event": 0.9896
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.923
+        },
+        {
+          "month": 1,
+          "survival": 0.8193
+        },
+        {
+          "month": 2,
+          "survival": 0.6812
+        },
+        {
+          "month": 3,
+          "survival": 0.5767
+        },
+        {
+          "month": 4,
+          "survival": 0.5053
+        },
+        {
+          "month": 5,
+          "survival": 0.4396
+        },
+        {
+          "month": 6,
+          "survival": 0.3615
+        },
+        {
+          "month": 7,
+          "survival": 0.3145
+        },
+        {
+          "month": 8,
+          "survival": 0.2779
+        },
+        {
+          "month": 9,
+          "survival": 0.2286
+        },
+        {
+          "month": 10,
+          "survival": 0.2085
+        },
+        {
+          "month": 11,
+          "survival": 0.1668
+        },
+        {
+          "month": 12,
+          "survival": 0.1479
+        },
+        {
+          "month": 13,
+          "survival": 0.1299
+        },
+        {
+          "month": 14,
+          "survival": 0.1126
+        },
+        {
+          "month": 15,
+          "survival": 0.1
+        },
+        {
+          "month": 16,
+          "survival": 0.0742
+        },
+        {
+          "month": 17,
+          "survival": 0.06
+        },
+        {
+          "month": 18,
+          "survival": 0.0563
+        },
+        {
+          "month": 19,
+          "survival": 0.0492
+        },
+        {
+          "month": 20,
+          "survival": 0.0425
+        },
+        {
+          "month": 21,
+          "survival": 0.0331
+        },
+        {
+          "month": 22,
+          "survival": 0.0299
+        },
+        {
+          "month": 23,
+          "survival": 0.0267
+        },
+        {
+          "month": 24,
+          "survival": 0.0252
+        },
+        {
+          "month": 25,
+          "survival": 0.0237
+        },
+        {
+          "month": 26,
+          "survival": 0.023
+        },
+        {
+          "month": 27,
+          "survival": 0.0222
+        },
+        {
+          "month": 28,
+          "survival": 0.0214
+        },
+        {
+          "month": 29,
+          "survival": 0.0206
+        },
+        {
+          "month": 30,
+          "survival": 0.0198
+        },
+        {
+          "month": 31,
+          "survival": 0.0191
+        },
+        {
+          "month": 32,
+          "survival": 0.0183
+        },
+        {
+          "month": 33,
+          "survival": 0.0155
+        },
+        {
+          "month": 34,
+          "survival": 0.013
+        },
+        {
+          "month": 35,
+          "survival": 0.0117
+        },
+        {
+          "month": 36,
+          "survival": 0.0104
+        }
+      ]
+    },
+    {
+      "key": "G4_N0_S0",
+      "grade": 4,
+      "ajcc_n": 0,
+      "surgery": 0,
+      "risk_score": -0.3923,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.6709,
+          "event": 0.3291
+        },
+        "12": {
+          "survival": 0.4725,
+          "event": 0.5275
+        },
+        "18": {
+          "survival": 0.3234,
+          "event": 0.6766
+        },
+        "24": {
+          "survival": 0.236,
+          "event": 0.764
+        },
+        "36": {
+          "survival": 0.1667,
+          "event": 0.8333
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9691
+        },
+        {
+          "month": 1,
+          "survival": 0.9248
+        },
+        {
+          "month": 2,
+          "survival": 0.8602
+        },
+        {
+          "month": 3,
+          "survival": 0.8058
+        },
+        {
+          "month": 4,
+          "survival": 0.7651
+        },
+        {
+          "month": 5,
+          "survival": 0.7244
+        },
+        {
+          "month": 6,
+          "survival": 0.6709
+        },
+        {
+          "month": 7,
+          "survival": 0.6352
+        },
+        {
+          "month": 8,
+          "survival": 0.6051
+        },
+        {
+          "month": 9,
+          "survival": 0.5605
+        },
+        {
+          "month": 10,
+          "survival": 0.5406
+        },
+        {
+          "month": 11,
+          "survival": 0.4952
+        },
+        {
+          "month": 12,
+          "survival": 0.4725
+        },
+        {
+          "month": 13,
+          "survival": 0.449
+        },
+        {
+          "month": 14,
+          "survival": 0.4246
+        },
+        {
+          "month": 15,
+          "survival": 0.4053
+        },
+        {
+          "month": 16,
+          "survival": 0.3605
+        },
+        {
+          "month": 17,
+          "survival": 0.3316
+        },
+        {
+          "month": 18,
+          "survival": 0.3234
+        },
+        {
+          "month": 19,
+          "survival": 0.3068
+        },
+        {
+          "month": 20,
+          "survival": 0.2898
+        },
+        {
+          "month": 21,
+          "survival": 0.2626
+        },
+        {
+          "month": 22,
+          "survival": 0.2522
+        },
+        {
+          "month": 23,
+          "survival": 0.2415
+        },
+        {
+          "month": 24,
+          "survival": 0.236
+        },
+        {
+          "month": 25,
+          "survival": 0.2305
+        },
+        {
+          "month": 26,
+          "survival": 0.2273
+        },
+        {
+          "month": 27,
+          "survival": 0.2241
+        },
+        {
+          "month": 28,
+          "survival": 0.2209
+        },
+        {
+          "month": 29,
+          "survival": 0.2177
+        },
+        {
+          "month": 30,
+          "survival": 0.2145
+        },
+        {
+          "month": 31,
+          "survival": 0.2113
+        },
+        {
+          "month": 32,
+          "survival": 0.2081
+        },
+        {
+          "month": 33,
+          "survival": 0.1952
+        },
+        {
+          "month": 34,
+          "survival": 0.1819
+        },
+        {
+          "month": 35,
+          "survival": 0.1743
+        },
+        {
+          "month": 36,
+          "survival": 0.1667
+        }
+      ]
+    },
+    {
+      "key": "G4_N0_S1",
+      "grade": 4,
+      "ajcc_n": 0,
+      "surgery": 1,
+      "risk_score": -0.3617,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.6626,
+          "event": 0.3374
+        },
+        "12": {
+          "survival": 0.4616,
+          "event": 0.5384
+        },
+        "18": {
+          "survival": 0.3122,
+          "event": 0.6878
+        },
+        "24": {
+          "survival": 0.2256,
+          "event": 0.7744
+        },
+        "36": {
+          "survival": 0.1577,
+          "event": 0.8423
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9681
+        },
+        {
+          "month": 1,
+          "survival": 0.9225
+        },
+        {
+          "month": 2,
+          "survival": 0.8562
+        },
+        {
+          "month": 3,
+          "survival": 0.8004
+        },
+        {
+          "month": 4,
+          "survival": 0.7587
+        },
+        {
+          "month": 5,
+          "survival": 0.7172
+        },
+        {
+          "month": 6,
+          "survival": 0.6626
+        },
+        {
+          "month": 7,
+          "survival": 0.6263
+        },
+        {
+          "month": 8,
+          "survival": 0.5958
+        },
+        {
+          "month": 9,
+          "survival": 0.5505
+        },
+        {
+          "month": 10,
+          "survival": 0.5304
+        },
+        {
+          "month": 11,
+          "survival": 0.4845
+        },
+        {
+          "month": 12,
+          "survival": 0.4616
+        },
+        {
+          "month": 13,
+          "survival": 0.438
+        },
+        {
+          "month": 14,
+          "survival": 0.4134
+        },
+        {
+          "month": 15,
+          "survival": 0.3941
+        },
+        {
+          "month": 16,
+          "survival": 0.3492
+        },
+        {
+          "month": 17,
+          "survival": 0.3204
+        },
+        {
+          "month": 18,
+          "survival": 0.3122
+        },
+        {
+          "month": 19,
+          "survival": 0.2957
+        },
+        {
+          "month": 20,
+          "survival": 0.2788
+        },
+        {
+          "month": 21,
+          "survival": 0.2519
+        },
+        {
+          "month": 22,
+          "survival": 0.2417
+        },
+        {
+          "month": 23,
+          "survival": 0.231
+        },
+        {
+          "month": 24,
+          "survival": 0.2256
+        },
+        {
+          "month": 25,
+          "survival": 0.2202
+        },
+        {
+          "month": 26,
+          "survival": 0.2171
+        },
+        {
+          "month": 27,
+          "survival": 0.2139
+        },
+        {
+          "month": 28,
+          "survival": 0.2108
+        },
+        {
+          "month": 29,
+          "survival": 0.2076
+        },
+        {
+          "month": 30,
+          "survival": 0.2045
+        },
+        {
+          "month": 31,
+          "survival": 0.2013
+        },
+        {
+          "month": 32,
+          "survival": 0.1982
+        },
+        {
+          "month": 33,
+          "survival": 0.1855
+        },
+        {
+          "month": 34,
+          "survival": 0.1725
+        },
+        {
+          "month": 35,
+          "survival": 0.1651
+        },
+        {
+          "month": 36,
+          "survival": 0.1577
+        }
+      ]
+    },
+    {
+      "key": "G4_N1_S0",
+      "grade": 4,
+      "ajcc_n": 1,
+      "surgery": 0,
+      "risk_score": -0.1107,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.5892,
+          "event": 0.4108
+        },
+        "12": {
+          "survival": 0.3703,
+          "event": 0.6297
+        },
+        "18": {
+          "survival": 0.224,
+          "event": 0.776
+        },
+        "24": {
+          "survival": 0.1476,
+          "event": 0.8524
+        },
+        "36": {
+          "survival": 0.0931,
+          "event": 0.9069
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9592
+        },
+        {
+          "month": 1,
+          "survival": 0.9015
+        },
+        {
+          "month": 2,
+          "survival": 0.8191
+        },
+        {
+          "month": 3,
+          "survival": 0.7512
+        },
+        {
+          "month": 4,
+          "survival": 0.7012
+        },
+        {
+          "month": 5,
+          "survival": 0.6523
+        },
+        {
+          "month": 6,
+          "survival": 0.5892
+        },
+        {
+          "month": 7,
+          "survival": 0.548
+        },
+        {
+          "month": 8,
+          "survival": 0.514
+        },
+        {
+          "month": 9,
+          "survival": 0.4643
+        },
+        {
+          "month": 10,
+          "survival": 0.4426
+        },
+        {
+          "month": 11,
+          "survival": 0.3941
+        },
+        {
+          "month": 12,
+          "survival": 0.3703
+        },
+        {
+          "month": 13,
+          "survival": 0.3461
+        },
+        {
+          "month": 14,
+          "survival": 0.3214
+        },
+        {
+          "month": 15,
+          "survival": 0.3021
+        },
+        {
+          "month": 16,
+          "survival": 0.2587
+        },
+        {
+          "month": 17,
+          "survival": 0.2316
+        },
+        {
+          "month": 18,
+          "survival": 0.224
+        },
+        {
+          "month": 19,
+          "survival": 0.2089
+        },
+        {
+          "month": 20,
+          "survival": 0.1937
+        },
+        {
+          "month": 21,
+          "survival": 0.17
+        },
+        {
+          "month": 22,
+          "survival": 0.1612
+        },
+        {
+          "month": 23,
+          "survival": 0.1521
+        },
+        {
+          "month": 24,
+          "survival": 0.1476
+        },
+        {
+          "month": 25,
+          "survival": 0.143
+        },
+        {
+          "month": 26,
+          "survival": 0.1404
+        },
+        {
+          "month": 27,
+          "survival": 0.1378
+        },
+        {
+          "month": 28,
+          "survival": 0.1353
+        },
+        {
+          "month": 29,
+          "survival": 0.1327
+        },
+        {
+          "month": 30,
+          "survival": 0.1301
+        },
+        {
+          "month": 31,
+          "survival": 0.1275
+        },
+        {
+          "month": 32,
+          "survival": 0.1249
+        },
+        {
+          "month": 33,
+          "survival": 0.1147
+        },
+        {
+          "month": 34,
+          "survival": 0.1045
+        },
+        {
+          "month": 35,
+          "survival": 0.0988
+        },
+        {
+          "month": 36,
+          "survival": 0.0931
+        }
+      ]
+    },
+    {
+      "key": "G4_N1_S1",
+      "grade": 4,
+      "ajcc_n": 1,
+      "surgery": 1,
+      "risk_score": -0.1273,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.5943,
+          "event": 0.4057
+        },
+        "12": {
+          "survival": 0.3763,
+          "event": 0.6237
+        },
+        "18": {
+          "survival": 0.2296,
+          "event": 0.7704
+        },
+        "24": {
+          "survival": 0.1523,
+          "event": 0.8477
+        },
+        "36": {
+          "survival": 0.0968,
+          "event": 0.9032
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9599
+        },
+        {
+          "month": 1,
+          "survival": 0.9031
+        },
+        {
+          "month": 2,
+          "survival": 0.8218
+        },
+        {
+          "month": 3,
+          "survival": 0.7547
+        },
+        {
+          "month": 4,
+          "survival": 0.7053
+        },
+        {
+          "month": 5,
+          "survival": 0.6569
+        },
+        {
+          "month": 6,
+          "survival": 0.5943
+        },
+        {
+          "month": 7,
+          "survival": 0.5535
+        },
+        {
+          "month": 8,
+          "survival": 0.5196
+        },
+        {
+          "month": 9,
+          "survival": 0.4702
+        },
+        {
+          "month": 10,
+          "survival": 0.4486
+        },
+        {
+          "month": 11,
+          "survival": 0.4001
+        },
+        {
+          "month": 12,
+          "survival": 0.3763
+        },
+        {
+          "month": 13,
+          "survival": 0.3521
+        },
+        {
+          "month": 14,
+          "survival": 0.3274
+        },
+        {
+          "month": 15,
+          "survival": 0.3081
+        },
+        {
+          "month": 16,
+          "survival": 0.2645
+        },
+        {
+          "month": 17,
+          "survival": 0.2372
+        },
+        {
+          "month": 18,
+          "survival": 0.2296
+        },
+        {
+          "month": 19,
+          "survival": 0.2143
+        },
+        {
+          "month": 20,
+          "survival": 0.199
+        },
+        {
+          "month": 21,
+          "survival": 0.175
+        },
+        {
+          "month": 22,
+          "survival": 0.1661
+        },
+        {
+          "month": 23,
+          "survival": 0.1569
+        },
+        {
+          "month": 24,
+          "survival": 0.1523
+        },
+        {
+          "month": 25,
+          "survival": 0.1477
+        },
+        {
+          "month": 26,
+          "survival": 0.145
+        },
+        {
+          "month": 27,
+          "survival": 0.1424
+        },
+        {
+          "month": 28,
+          "survival": 0.1398
+        },
+        {
+          "month": 29,
+          "survival": 0.1371
+        },
+        {
+          "month": 30,
+          "survival": 0.1345
+        },
+        {
+          "month": 31,
+          "survival": 0.1319
+        },
+        {
+          "month": 32,
+          "survival": 0.1292
+        },
+        {
+          "month": 33,
+          "survival": 0.1189
+        },
+        {
+          "month": 34,
+          "survival": 0.1085
+        },
+        {
+          "month": 35,
+          "survival": 0.1026
+        },
+        {
+          "month": 36,
+          "survival": 0.0968
+        }
+      ]
+    },
+    {
+      "key": "G5_N0_S0",
+      "grade": 5,
+      "ajcc_n": 0,
+      "surgery": 0,
+      "risk_score": 0.284,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.4561,
+          "event": 0.5439
+        },
+        "12": {
+          "survival": 0.2289,
+          "event": 0.7711
+        },
+        "18": {
+          "survival": 0.1086,
+          "event": 0.8914
+        },
+        "24": {
+          "survival": 0.0585,
+          "event": 0.9415
+        },
+        "36": {
+          "survival": 0.0295,
+          "event": 0.9705
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9401
+        },
+        {
+          "month": 1,
+          "survival": 0.8574
+        },
+        {
+          "month": 2,
+          "survival": 0.7437
+        },
+        {
+          "month": 3,
+          "survival": 0.654
+        },
+        {
+          "month": 4,
+          "survival": 0.5906
+        },
+        {
+          "month": 5,
+          "survival": 0.5304
+        },
+        {
+          "month": 6,
+          "survival": 0.4561
+        },
+        {
+          "month": 7,
+          "survival": 0.4096
+        },
+        {
+          "month": 8,
+          "survival": 0.3724
+        },
+        {
+          "month": 9,
+          "survival": 0.3203
+        },
+        {
+          "month": 10,
+          "survival": 0.2984
+        },
+        {
+          "month": 11,
+          "survival": 0.2511
+        },
+        {
+          "month": 12,
+          "survival": 0.2289
+        },
+        {
+          "month": 13,
+          "survival": 0.2071
+        },
+        {
+          "month": 14,
+          "survival": 0.1855
+        },
+        {
+          "month": 15,
+          "survival": 0.1693
+        },
+        {
+          "month": 16,
+          "survival": 0.1344
+        },
+        {
+          "month": 17,
+          "survival": 0.1141
+        },
+        {
+          "month": 18,
+          "survival": 0.1086
+        },
+        {
+          "month": 19,
+          "survival": 0.0979
+        },
+        {
+          "month": 20,
+          "survival": 0.0875
+        },
+        {
+          "month": 21,
+          "survival": 0.0721
+        },
+        {
+          "month": 22,
+          "survival": 0.0666
+        },
+        {
+          "month": 23,
+          "survival": 0.0611
+        },
+        {
+          "month": 24,
+          "survival": 0.0585
+        },
+        {
+          "month": 25,
+          "survival": 0.0558
+        },
+        {
+          "month": 26,
+          "survival": 0.0543
+        },
+        {
+          "month": 27,
+          "survival": 0.0529
+        },
+        {
+          "month": 28,
+          "survival": 0.0514
+        },
+        {
+          "month": 29,
+          "survival": 0.05
+        },
+        {
+          "month": 30,
+          "survival": 0.0485
+        },
+        {
+          "month": 31,
+          "survival": 0.0471
+        },
+        {
+          "month": 32,
+          "survival": 0.0456
+        },
+        {
+          "month": 33,
+          "survival": 0.0402
+        },
+        {
+          "month": 34,
+          "survival": 0.035
+        },
+        {
+          "month": 35,
+          "survival": 0.0323
+        },
+        {
+          "month": 36,
+          "survival": 0.0295
+        }
+      ]
+    },
+    {
+      "key": "G5_N0_S1",
+      "grade": 5,
+      "ajcc_n": 0,
+      "surgery": 1,
+      "risk_score": -0.6548,
+      "risk_group": "Low",
+      "horizons": {
+        "6": {
+          "survival": 0.7356,
+          "event": 0.2644
+        },
+        "12": {
+          "survival": 0.5618,
+          "event": 0.4382
+        },
+        "18": {
+          "survival": 0.4197,
+          "event": 0.5803
+        },
+        "24": {
+          "survival": 0.3293,
+          "event": 0.6707
+        },
+        "36": {
+          "survival": 0.2521,
+          "event": 0.7479
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9761
+        },
+        {
+          "month": 1,
+          "survival": 0.9416
+        },
+        {
+          "month": 2,
+          "survival": 0.8906
+        },
+        {
+          "month": 3,
+          "survival": 0.847
+        },
+        {
+          "month": 4,
+          "survival": 0.8139
+        },
+        {
+          "month": 5,
+          "survival": 0.7804
+        },
+        {
+          "month": 6,
+          "survival": 0.7356
+        },
+        {
+          "month": 7,
+          "survival": 0.7054
+        },
+        {
+          "month": 8,
+          "survival": 0.6796
+        },
+        {
+          "month": 9,
+          "survival": 0.6407
+        },
+        {
+          "month": 10,
+          "survival": 0.6231
+        },
+        {
+          "month": 11,
+          "survival": 0.5825
+        },
+        {
+          "month": 12,
+          "survival": 0.5618
+        },
+        {
+          "month": 13,
+          "survival": 0.5402
+        },
+        {
+          "month": 14,
+          "survival": 0.5175
+        },
+        {
+          "month": 15,
+          "survival": 0.4993
+        },
+        {
+          "month": 16,
+          "survival": 0.4562
+        },
+        {
+          "month": 17,
+          "survival": 0.4279
+        },
+        {
+          "month": 18,
+          "survival": 0.4197
+        },
+        {
+          "month": 19,
+          "survival": 0.403
+        },
+        {
+          "month": 20,
+          "survival": 0.3857
+        },
+        {
+          "month": 21,
+          "survival": 0.3575
+        },
+        {
+          "month": 22,
+          "survival": 0.3467
+        },
+        {
+          "month": 23,
+          "survival": 0.3352
+        },
+        {
+          "month": 24,
+          "survival": 0.3293
+        },
+        {
+          "month": 25,
+          "survival": 0.3235
+        },
+        {
+          "month": 26,
+          "survival": 0.32
+        },
+        {
+          "month": 27,
+          "survival": 0.3165
+        },
+        {
+          "month": 28,
+          "survival": 0.313
+        },
+        {
+          "month": 29,
+          "survival": 0.3095
+        },
+        {
+          "month": 30,
+          "survival": 0.306
+        },
+        {
+          "month": 31,
+          "survival": 0.3025
+        },
+        {
+          "month": 32,
+          "survival": 0.299
+        },
+        {
+          "month": 33,
+          "survival": 0.2846
+        },
+        {
+          "month": 34,
+          "survival": 0.2696
+        },
+        {
+          "month": 35,
+          "survival": 0.2609
+        },
+        {
+          "month": 36,
+          "survival": 0.2521
+        }
+      ]
+    },
+    {
+      "key": "G5_N1_S0",
+      "grade": 5,
+      "ajcc_n": 1,
+      "surgery": 0,
+      "risk_score": 0.6115,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.3365,
+          "event": 0.6635
+        },
+        "12": {
+          "survival": 0.1293,
+          "event": 0.8707
+        },
+        "18": {
+          "survival": 0.0459,
+          "event": 0.9541
+        },
+        "24": {
+          "survival": 0.0195,
+          "event": 0.9805
+        },
+        "36": {
+          "survival": 0.0075,
+          "event": 0.9925
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9178
+        },
+        {
+          "month": 1,
+          "survival": 0.8078
+        },
+        {
+          "month": 2,
+          "survival": 0.6631
+        },
+        {
+          "month": 3,
+          "survival": 0.5548
+        },
+        {
+          "month": 4,
+          "survival": 0.4815
+        },
+        {
+          "month": 5,
+          "survival": 0.4149
+        },
+        {
+          "month": 6,
+          "survival": 0.3365
+        },
+        {
+          "month": 7,
+          "survival": 0.2899
+        },
+        {
+          "month": 8,
+          "survival": 0.254
+        },
+        {
+          "month": 9,
+          "survival": 0.2061
+        },
+        {
+          "month": 10,
+          "survival": 0.1867
+        },
+        {
+          "month": 11,
+          "survival": 0.147
+        },
+        {
+          "month": 12,
+          "survival": 0.1293
+        },
+        {
+          "month": 13,
+          "survival": 0.1125
+        },
+        {
+          "month": 14,
+          "survival": 0.0966
+        },
+        {
+          "month": 15,
+          "survival": 0.0851
+        },
+        {
+          "month": 16,
+          "survival": 0.0618
+        },
+        {
+          "month": 17,
+          "survival": 0.0492
+        },
+        {
+          "month": 18,
+          "survival": 0.0459
+        },
+        {
+          "month": 19,
+          "survival": 0.0398
+        },
+        {
+          "month": 20,
+          "survival": 0.0341
+        },
+        {
+          "month": 21,
+          "survival": 0.026
+        },
+        {
+          "month": 22,
+          "survival": 0.0233
+        },
+        {
+          "month": 23,
+          "survival": 0.0207
+        },
+        {
+          "month": 24,
+          "survival": 0.0195
+        },
+        {
+          "month": 25,
+          "survival": 0.0182
+        },
+        {
+          "month": 26,
+          "survival": 0.0176
+        },
+        {
+          "month": 27,
+          "survival": 0.017
+        },
+        {
+          "month": 28,
+          "survival": 0.0163
+        },
+        {
+          "month": 29,
+          "survival": 0.0157
+        },
+        {
+          "month": 30,
+          "survival": 0.0151
+        },
+        {
+          "month": 31,
+          "survival": 0.0144
+        },
+        {
+          "month": 32,
+          "survival": 0.0138
+        },
+        {
+          "month": 33,
+          "survival": 0.0116
+        },
+        {
+          "month": 34,
+          "survival": 0.0096
+        },
+        {
+          "month": 35,
+          "survival": 0.0085
+        },
+        {
+          "month": 36,
+          "survival": 0.0075
+        }
+      ]
+    },
+    {
+      "key": "G5_N1_S1",
+      "grade": 5,
+      "ajcc_n": 1,
+      "surgery": 1,
+      "risk_score": 0.301,
+      "risk_group": "High",
+      "horizons": {
+        "6": {
+          "survival": 0.45,
+          "event": 0.55
+        },
+        "12": {
+          "survival": 0.2232,
+          "event": 0.7768
+        },
+        "18": {
+          "survival": 0.1045,
+          "event": 0.8955
+        },
+        "24": {
+          "survival": 0.0557,
+          "event": 0.9443
+        },
+        "36": {
+          "survival": 0.0278,
+          "event": 0.9722
+        }
+      },
+      "curve": [
+        {
+          "month": 0,
+          "survival": 0.9391
+        },
+        {
+          "month": 1,
+          "survival": 0.8552
+        },
+        {
+          "month": 2,
+          "survival": 0.7399
+        },
+        {
+          "month": 3,
+          "survival": 0.6493
+        },
+        {
+          "month": 4,
+          "survival": 0.5853
+        },
+        {
+          "month": 5,
+          "survival": 0.5247
+        },
+        {
+          "month": 6,
+          "survival": 0.45
+        },
+        {
+          "month": 7,
+          "survival": 0.4034
+        },
+        {
+          "month": 8,
+          "survival": 0.3661
+        },
+        {
+          "month": 9,
+          "survival": 0.3141
+        },
+        {
+          "month": 10,
+          "survival": 0.2922
+        },
+        {
+          "month": 11,
+          "survival": 0.2452
+        },
+        {
+          "month": 12,
+          "survival": 0.2232
+        },
+        {
+          "month": 13,
+          "survival": 0.2015
+        },
+        {
+          "month": 14,
+          "survival": 0.1802
+        },
+        {
+          "month": 15,
+          "survival": 0.1642
+        },
+        {
+          "month": 16,
+          "survival": 0.1299
+        },
+        {
+          "month": 17,
+          "survival": 0.1099
+        },
+        {
+          "month": 18,
+          "survival": 0.1045
+        },
+        {
+          "month": 19,
+          "survival": 0.0941
+        },
+        {
+          "month": 20,
+          "survival": 0.0839
+        },
+        {
+          "month": 21,
+          "survival": 0.0689
+        },
+        {
+          "month": 22,
+          "survival": 0.0636
+        },
+        {
+          "month": 23,
+          "survival": 0.0583
+        },
+        {
+          "month": 24,
+          "survival": 0.0557
+        },
+        {
+          "month": 25,
+          "survival": 0.0531
+        },
+        {
+          "month": 26,
+          "survival": 0.0517
+        },
+        {
+          "month": 27,
+          "survival": 0.0503
+        },
+        {
+          "month": 28,
+          "survival": 0.0489
+        },
+        {
+          "month": 29,
+          "survival": 0.0475
+        },
+        {
+          "month": 30,
+          "survival": 0.0461
+        },
+        {
+          "month": 31,
+          "survival": 0.0447
+        },
+        {
+          "month": 32,
+          "survival": 0.0433
+        },
+        {
+          "month": 33,
+          "survival": 0.0381
+        },
+        {
+          "month": 34,
+          "survival": 0.0331
+        },
+        {
+          "month": 35,
+          "survival": 0.0304
+        },
+        {
+          "month": 36,
+          "survival": 0.0278
+        }
+      ]
+    }
+  ]
+};
